@@ -296,6 +296,16 @@ var appinfo = {
 		url: 'https://www.google.com/adsense',
 		priority: 5
 	},
+	'Yandex Direct': {
+		icon: 'YandexDirect.gif',
+		url: 'http://direct.yandex.ru',
+		priority: 5
+	},
+	'begun': {
+		icon: 'begun.ico',
+		url: 'http://begun.ru',
+		priority: 5
+	},
 	
 	// ==== misc ====
 	'': { // default
@@ -303,3 +313,5 @@ var appinfo = {
 		url: 'http://google.com/search?q=%s'
 	}
 };
+
+// vi: set noexpandtab: 

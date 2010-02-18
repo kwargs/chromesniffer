@@ -20,7 +20,7 @@ var __chrome_sniffer__ = function(){ // run the whole apps inside scopes
 		'jQuery UI': /jquery[-.]ui/i,
 		'Drupal': /drupal/i,
 		'Google Analytics': /google-analytics.com\/(ga|urchin).js/i,
-		'Yandex Metrics': /mc\.yandex\.ru\/metrika\/watch\.js/,
+		'Yandex Metrics': /(mc|bs)\.yandex\.ru\/(metrika|resource)\/watch\.js/,
 		'Quantcast': /quantserve\.com\/quant\.js/i,
 		'Prototype': /prototype\.js/i,
 		'Joomla': /\/components\/com_/,
@@ -40,6 +40,7 @@ var __chrome_sniffer__ = function(){ // run the whole apps inside scopes
 		'Mollom': /mollom\/mollom\.js/i, // only work on Drupal now
 		'ZenPhoto': /zp-core\/js/i,
 		'Gallery2': /main\.php\?.*g2_.*/i,
+		'Yandex Direct': /an\.yandex\.ru\/resource\/context\.js/,
 		'AdSense': /pagead\/show_ads\.js/
 	};
 
@@ -154,3 +155,4 @@ var __chrome_sniffer__ = function(){ // run the whole apps inside scopes
 };
 
 __chrome_sniffer__();
+// vi: set noexpandtab:
