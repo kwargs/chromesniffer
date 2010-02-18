@@ -41,7 +41,8 @@ var __chrome_sniffer__ = function(){ // run the whole apps inside scopes
 		'ZenPhoto': /zp-core\/js/i,
 		'Gallery2': /main\.php\?.*g2_.*/i,
 		'Yandex Direct': /an\.yandex\.ru\/resource\/context\.js/,
-		'AdSense': /pagead\/show_ads\.js/
+		'AdSense': /pagead\/show_ads\.js/,
+		'begun': /autocontext\.begun\.ru\/context/
 	};
 
 	for (var idx in scripts)
