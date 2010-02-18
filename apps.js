@@ -250,6 +250,11 @@ var appinfo = {
 		url: 'http://www.google.com/analytics/',
 		priority: 3
 	},
+	'Yandex Metrics': {
+		icon: 'YandexMetrics.gif',
+		url: 'http://metrika.yandex.ru/',
+		priority: 3
+	},
 	'Quantcast': {
 		icon: 'Quantcast.ico',
 		url: 'http://www.quantcast.com/',

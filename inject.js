@@ -20,6 +20,7 @@ var __chrome_sniffer__ = function(){ // run the whole apps inside scopes
 		'jQuery UI': /jquery[-.]ui/i,
 		'Drupal': /drupal/i,
 		'Google Analytics': /google-analytics.com\/(ga|urchin).js/i,
+		'Yandex Metrics': /mc\.yandex\.ru\/metrika\/watch\.js/,
 		'Quantcast': /quantserve\.com\/quant\.js/i,
 		'Prototype': /prototype\.js/i,
 		'Joomla': /\/components\/com_/,
